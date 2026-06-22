@@ -110,7 +110,35 @@ width:120px;
 h1{
 font-size:26px;
 }
+.footer{
+    background:#17396b;
+    color:#fff;
+    padding:50px;
+}
 
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+    width:45%;
+}
+
+.footer input{
+    width:250px;
+    padding:10px;
+    margin-top:10px;
+}
+
+.footer button{
+    padding:10px 25px;
+    margin-top:10px;
+    background:#fff;
+    border:none;
+    cursor:pointer;
+}
 .btn{
 padding:14px;
 }
